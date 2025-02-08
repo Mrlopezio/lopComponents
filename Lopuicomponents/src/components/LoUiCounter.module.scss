@@ -1,0 +1,14 @@
+.counter {
+  border: 2px dashed rgba(red, 0.6);
+  display: flex;
+  width: fit-content;
+  height: 40px;
+}
+
+.number-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
