@@ -1,0 +1,27 @@
+.counter {
+  display: flex;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+
+  &-digit {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    &-slider {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+    }
+  }
+}
+
+.number-column {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+}
